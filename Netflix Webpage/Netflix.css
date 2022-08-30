@@ -1,0 +1,473 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 3400px;
+  width: 100%;
+  background: grey;
+}
+
+.container {
+  display: flex; 
+}
+
+#backdrop-img {
+  height: 700px;
+  width: 100%;
+  filter: brightness(0.3);
+  display: flex;
+}
+
+#logo-img {
+  height: 60px;
+  width: 180px;
+  margin-top: -660px;
+  margin-left: 40px;
+  position: relative;
+}
+#logo-img:hover {
+  color: white;
+  background:white;
+  cursor: zoom-in;
+  transition: 2s;
+}
+
+#bagr-text {
+  font-weight: bolder;
+  font-size: 50px;
+  margin-top: -540px;
+  color: white;
+  margin-left: 270px;
+  height: 120px;
+  width: 1090px;
+  display: flex;
+  position: absolute;
+
+}
+
+#texti {
+  color: white;
+  font-size: 25px;
+  left: 514px;
+  position: absolute;
+  margin-top: -460px;
+}
+
+#textii {
+  color: white;
+  font-size: 25px;
+  left: 340px;
+  position: absolute;
+  margin-top: -400px;
+}
+
+#email-address {
+  color: black;
+  position: absolute;
+  top: 380px;
+  border: 2px solid white;
+  height: 50px;
+  width: 390px;
+  left: 399px;
+  border-radius: 5px;
+}
+
+.Get-btn {
+  top: 380px;
+  color: white;
+  background: red;
+  border: 2px solid red;
+  position: absolute;
+  height: 50px;
+  width: 180px;
+  border-radius: none;
+  left: 786px;
+}
+.Get-btn:hover {
+  color: white;
+  background: rgb(196, 16, 16);
+  cursor: progress;
+  border:rgb(196, 16, 16);
+  transition: 2s;
+}
+
+.Sign-btn {
+  top: 90px;
+  color: white;
+  background: red;
+  border: 2px solid red;
+  position: absolute;
+  height: 40px;
+  width: 100px;
+  border-radius:5px;
+  left: 1160px;
+}
+.Sign-btn:hover {
+  color: white;
+  background: rgb(196, 16, 16);
+  cursor: progress;
+  border:rgb(196, 16, 16);
+  transition: 2s;
+}
+
+.row1 {
+  background: black;
+  height: 500px;
+  width: auto;
+  top: 20px;
+  position: relative;
+}
+
+#img-tv {
+  margin-left: 620px;
+  margin-top: 59px;
+  width: 700px;
+  height: 380;
+}
+
+#enjoy {
+  color: white;
+  margin-top: -310px;
+  font-size: 52px;
+  margin-left: 98px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+}
+#wacth {
+  color: white;
+  margin-top: -230px;
+  font-size: 19px;
+  margin-left: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+}
+#Blue {
+  color: white;
+  margin-top: -187px;
+  font-size: 19px;
+  margin-left: 190px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+}
+
+
+.row2 {
+  background: black;
+  height: 500px;
+  width: auto;
+  top: 40px;
+  position: relative;
+}
+
+#mobile {
+  top: 40px;
+}
+
+#download {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 700px;
+  margin-top: -329px;
+}
+
+#down {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 700px;
+  margin-top: 6px;
+}
+#save {
+  color: white;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 700px;
+  margin-top: 7px;
+}
+#savei {
+  color: white;
+  font-size: 29px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 700px;
+  margin-top: 8px;
+}
+
+.row3 {
+  background: black;
+  height: 500px;
+  width: auto;
+  top: 60px;
+  position: relative;
+}
+#devices {
+  margin-left: 750px;
+  margin-top: 59px;
+}
+#watch {
+  color: white;
+  margin-top: -330px;
+  font-size: 52px;
+  margin-left: 98px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#stream {
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+  margin-left: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#laptop {
+  color: white;
+  margin-top: 19px;
+  font-size: 19px;
+  margin-left: 190px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+}
+
+.row4 {
+  background: black;
+  height: 800px;
+  width: auto;
+  top: 80px;
+  position: relative;
+}
+#freq {
+  color: white;
+  font-size: xx-large;
+  padding-top: 13px;
+  margin-left: 488px;
+}
+
+.what-btn {
+  color: white;
+  background: grey;
+  font-size: 20px;
+  position: relative;
+  top: 70px;
+  border: 2px solid white;
+  height: 50px;
+  width: 650px;
+  left: 350px;
+  border-radius: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+.what-btn:hover {
+  color: white;
+  background: red;
+  cursor: pointer;
+  transition: 2s;
+}
+.how-btn {
+  color: white;
+  background: grey;
+  font-size: 20px;
+  position: relative;
+  top: 135px;
+  border: 2px solid white;
+  height: 50px;
+  width: 650px;
+  left: -305px;
+  border-radius: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+}
+.how-btn:hover {
+  color: white;
+  background: red;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.where-btn {
+color: white;
+background: grey;
+font-size: 20px;
+position: relative;
+top: 150px;
+border: 2px solid white;
+height: 50px;
+width: 650px;
+left: 350px;
+border-radius: 5px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bolder;
+}
+.where-btn:hover {
+  color: white;
+  background: red;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.cancel-btn {
+  color: white;
+  background: grey;
+  position: relative;
+  top: 215px;
+  border: 2px solid white;
+  height: 50px;
+  font-size: 20px;
+  width: 650px;
+  left: -306px;
+  border-radius: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  }
+  .cancel-btn:hover {
+    color: white;
+    background: red;
+    cursor: pointer;
+    transition: 2s;
+  }
+  
+  .wartch-btn {
+    color: white;
+    background: grey;
+    top: 377px;
+    position: absolute;
+    border: 2px solid white;
+    height: 50px;
+    width: 650px;
+    left: 349px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    }
+    .wartch-btn:hover {
+      color: white;
+      background: red;
+      cursor: pointer;
+      transition: 2s;
+    }
+    
+
+    #ready {
+      color: white;
+      position: absolute;
+      font-size: 20px;
+      left: 335px;
+      top: 480px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    }
+    
+    #email-add {
+      color: black;
+      position: absolute;
+      top: 550px;
+      border: 2px solid white;
+      height: 50px;
+      width: 390px;
+      left: 399px;
+      border-radius: 5px;
+    }
+
+    .Get-bot {
+      top: 550px;
+      color: white;
+      background: red;
+      border: 2px solid red;
+      position: absolute;
+      height: 50px;
+      width: 180px;
+      border-radius: none;
+      left: 785px;
+    }
+    .Get-bot:hover {
+      color: white;
+      background: rgb(196, 16, 16);
+      cursor: progress;
+      border:rgb(196, 16, 16);
+      transition: 2s;
+    }
+    
+
+    .Sign-bnt {
+      top: 650px;
+      color: white;
+      background: red;
+      border: 2px solid red;
+      position: absolute;
+      height: 40px;
+      width: 100px;
+      border-radius:5px;
+      left: 600px;
+    }
+    .Sign-bnt:hover {
+      color: white;
+      background: rgb(196, 16, 16);
+      cursor: progress;
+      border:rgb(196, 16, 16);
+      transition: 2s;
+    }
+
+    .row5 {
+    background: black;
+    height: 400px;
+    width: auto;
+    top: 680px;
+    position: relative;
+   }
+  #us {
+    color: white;
+    margin-top: -10px;
+    padding-top: 25px;
+    margin-left: 300px;
+    font-size: xx-large;
+  }
+  #faqs {
+    color: white;
+    word-spacing: 55px;
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #invest {
+    color: white;
+    word-spacing: 55px;
+    margin-top: 20px;
+    margin-left: 350px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #cook {
+    color: white;
+    word-spacing: 55px;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #Terms {
+    color: white;
+    word-spacing: 55px;
+    margin-top: 20px;
+    margin-left: 450px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  #Nigeria {
+    color: white;
+    margin-top: 70px;
+    margin-left: 390px;
+    font-size: 60px;
+    color: red;
+  }
+  #Nigeria:hover {
+    color: white;
+    cursor: cell;
+    transition: 2s;
+  }
+ 
